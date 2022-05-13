@@ -28,6 +28,7 @@ header .area .info-circle-area .info-circle{
 }
 
 .dailies .title{
+    display: flex;
     background-color: #137547;
     width: 70%;
     height: 1.5rem;
@@ -81,6 +82,8 @@ header .area .info-circle-area .info-circle{
 }
 
 .dailies .missions-box .mission .mission-details p{
+    text-align: left;
+    display: flex;
     padding-left: 1.3rem;
     font-size: 0.8rem;
     color: white;
@@ -94,6 +97,7 @@ header .area .info-circle-area .info-circle{
 }
 
 .map-area .title{
+    display: flex;
     background-color: #137547;
     width: 70%;
     height: 1.5rem;

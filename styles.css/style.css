@@ -1,3 +1,164 @@
 *{
+    margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 5rem;
+    width: 100%;
+    background-color: #137547;
+}
+
+.info{
+    height: 20rem;
+    width: 100%;
+    background-color: #137547;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+}
+
+.info .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.info .subtitle{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6rem;
+}
+
+.info .subtitle h2{
+    color: white;
+    font-weight:400;
+} 
+
+.info-circle-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+.info-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12rem;
+    width: 12rem;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.info-circle img{
+    width: 90%;
+}
+
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15rem;
+}
+
+.log .area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #137547;
+    width: 90%;
+    height: 70%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.log .area h3{
+    font-size: 1rem;
+    font-weight: 300;
+    color: white;
+}
+
+.log .area .area-components{
+    width: 100%;
+    height: 80%;
+}
+
+.log .area .mail-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+.log .area .mail-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+
+.log .area .pass-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+.log .area .pass-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+}
+
+.log .area input{
+    width: 80%;
+    height: 1.7rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    padding-left: 0.8rem;
+}
+
+.log .area input:focus{
+    border: none;
+    outline: none;
+}
+
+.confirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+
+.confirm button{
+    background-color: #137547;
+    color: white;
+    width: 40%;
+    height: 70%;
+    border: none;
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: 400;
+    font-size: 1rem;
 }

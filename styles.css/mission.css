@@ -1,0 +1,147 @@
+.image-area-box{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-area{
+    margin-top: 1rem;
+    background-image: url(https://img.freepik.com/foto-gratis/apagar-luces_1155-42.jpg);
+    width: 90%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+
+.dailies .points{
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    color: #137547;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+}
+
+.description-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    background-color: #137547;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.description-box p{
+    color: white;
+    width: 90%;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.description-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+
+.description-image img{
+    width: 5rem;
+}
+
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+}
+
+.alert-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    background-color: #f77d6d;
+    border-radius: 1rem;
+}
+
+.alert-box h3{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.button-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+}
+
+.button-area button{
+    width: 50%;
+    height: 60%;
+    background-color: #137547;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+
+.timer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer h1{
+    color: #5BBA6F;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+.timer #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .timer #clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #137547;
+    display: inline-block;
+  }
+  
+  .timer #clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #5BBA6F;
+    display: inline-block;
+  }
+  
+  .timer .smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+  }
